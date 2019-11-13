@@ -1,4 +1,5 @@
 let flexClasses = [".flex", ".flex-xs", ".flex-s", ".flex-m", ".flex-l", ".flex-xl"]
+let sizes = ["", "-xs", "-s", "-m", "-l", "-xl"]
 let gridList = [0,1,2,3,4,5,6,7,8,9,10,11,12]
 let css = `
 .flex,
@@ -42,6 +43,12 @@ ${gridList.map(size=>{
 	let classes = flexClasses.map(c=>c + " .box-" + size + ", " + c + " .box-xs-" + size).join(", ")
 	return classes + ` {flex-basis: ${width}}`
 }).join("\n")}
+
+.gutter, .gutter .box,
+${sizes.map(size=>{
+	let gutterClasses = gridList.map(col=>`.gutter .box${size}-${col}`).join(", ")
+	return gutterClasses
+})} {padding-left: 0.5rem; padding-right: 0.5rem}
 
 @media (min-width: 34rem){
 	.flex-s {
