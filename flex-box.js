@@ -44,11 +44,11 @@ ${gridList.map(size=>{
 	return classes + ` {flex-basis: ${width}}`
 }).join("\n")}
 
-.gutter, .gutter .box,
+.gutter .box,
 ${sizes.map(size=>{
 	let gutterClasses = gridList.map(col=>`.gutter .box${size}-${col}`).join(", ")
 	return gutterClasses
-})} {padding-left: 0.5rem; padding-right: 0.5rem}
+})} {padding-left: 1rem; padding-right: 1rem}
 
 @media (min-width: 34rem){
 	.flex-s {
