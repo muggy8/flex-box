@@ -31,7 +31,7 @@ ${flexClasses.map(c=>c + ".column").join(", ")} {flex-direction: column}
 
 ${flexClasses.map(c=>c + ".no-wrap").join(", ")} {flex-wrap: no-wrap}
 
-${flexClasses.map(c=>c + " .box").join(", ")} {
+${flexClasses.map(c=>c + " > .box").join(", ")} {
 	flex-grow: 1;
 	flex-basis: 1;
 	flex-shrink: 1;
@@ -40,13 +40,13 @@ ${flexClasses.map(c=>c + " .box").join(", ")} {
 ${gridList.map(size=>{
 	let width = round(size / (gridList.length - 1) * 100) + "%"
 	let flexClasses = [".flex", ".flex-xs"]
-	let classes = flexClasses.map(c=>c + " .box-" + size + ", " + c + " .box-xs-" + size).join(", ")
+	let classes = flexClasses.map(c=>c + " > .box-" + size + ", " + c + " > .box-xs-" + size).join(", ")
 	return classes + ` {flex-basis: ${width}}`
 }).join("\n")}
 
-.gutter .box,
+.use-gutter, .gutter > .box,
 ${sizes.map(size=>{
-	let gutterClasses = gridList.map(col=>`.gutter .box${size}-${col}`).join(", ")
+	let gutterClasses = gridList.map(col=>`.gutter > .box${size}-${col}`).join(", ")
 	return gutterClasses
 })} {padding-left: 1rem; padding-right: 1rem}
 
@@ -60,7 +60,7 @@ ${sizes.map(size=>{
 	${gridList.map(size=>{
 		let width = round(size / (gridList.length - 1) * 100) + "%"
 		let flexClasses = [".flex", ".flex-xs", ".flex-s"]
-		let classes = flexClasses.map(c=>c + " .box-s-" + size).join(", ")
+		let classes = flexClasses.map(c=>c + " > .box-s-" + size).join(", ")
 		return classes + ` {flex-basis: ${width}}`
 	}).join("\n\t")}
 }
@@ -75,7 +75,7 @@ ${sizes.map(size=>{
 	${gridList.map(size=>{
 		let width = round(size / (gridList.length - 1) * 100) + "%"
 		let flexClasses = [".flex", ".flex-xs", ".flex-s", ".flex-m"]
-		let classes = flexClasses.map(c=>c + " .box-m-" + size).join(", ")
+		let classes = flexClasses.map(c=>c + " > .box-m-" + size).join(", ")
 		return classes + ` {flex-basis: ${width}}`
 	}).join("\n\t")}
 }
@@ -90,7 +90,7 @@ ${sizes.map(size=>{
 	${gridList.map(size=>{
 		let width = round(size / (gridList.length - 1) * 100) + "%"
 		let flexClasses = [".flex", ".flex-xs", ".flex-s", ".flex-m", ".flex-l"]
-		let classes = flexClasses.map(c=>c + " .box-l-" + size).join(", ")
+		let classes = flexClasses.map(c=>c + " > .box-l-" + size).join(", ")
 		return classes + ` {flex-basis: ${width}}`
 	}).join("\n\t")}
 }
@@ -105,7 +105,7 @@ ${sizes.map(size=>{
 	${gridList.map(size=>{
 		let width = round(size / (gridList.length - 1) * 100) + "%"
 		let flexClasses = [".flex", ".flex-xs", ".flex-s", ".flex-m", ".flex-l", ".flex-xl"]
-		let classes = flexClasses.map(c=>c + " .box-xl-" + size).join(", ")
+		let classes = flexClasses.map(c=>c + " > .box-xl-" + size).join(", ")
 		return classes + ` {flex-basis: ${width}}`
 	}).join("\n\t")}
 }

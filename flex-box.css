@@ -28,28 +28,28 @@
 
 .flex.no-wrap, .flex-xs.no-wrap, .flex-s.no-wrap, .flex-m.no-wrap, .flex-l.no-wrap, .flex-xl.no-wrap {flex-wrap: no-wrap}
 
-.flex .box, .flex-xs .box, .flex-s .box, .flex-m .box, .flex-l .box, .flex-xl .box {
+.flex > .box, .flex-xs > .box, .flex-s > .box, .flex-m > .box, .flex-l > .box, .flex-xl > .box {
 	flex-grow: 1;
 	flex-basis: 1;
 	flex-shrink: 1;
 }
 
-.flex .box-0, .flex .box-xs-0, .flex-xs .box-0, .flex-xs .box-xs-0 {flex-basis: 0%}
-.flex .box-1, .flex .box-xs-1, .flex-xs .box-1, .flex-xs .box-xs-1 {flex-basis: 8.33333333%}
-.flex .box-2, .flex .box-xs-2, .flex-xs .box-2, .flex-xs .box-xs-2 {flex-basis: 16.66666667%}
-.flex .box-3, .flex .box-xs-3, .flex-xs .box-3, .flex-xs .box-xs-3 {flex-basis: 25%}
-.flex .box-4, .flex .box-xs-4, .flex-xs .box-4, .flex-xs .box-xs-4 {flex-basis: 33.33333333%}
-.flex .box-5, .flex .box-xs-5, .flex-xs .box-5, .flex-xs .box-xs-5 {flex-basis: 41.66666667%}
-.flex .box-6, .flex .box-xs-6, .flex-xs .box-6, .flex-xs .box-xs-6 {flex-basis: 50%}
-.flex .box-7, .flex .box-xs-7, .flex-xs .box-7, .flex-xs .box-xs-7 {flex-basis: 58.33333333%}
-.flex .box-8, .flex .box-xs-8, .flex-xs .box-8, .flex-xs .box-xs-8 {flex-basis: 66.66666667%}
-.flex .box-9, .flex .box-xs-9, .flex-xs .box-9, .flex-xs .box-xs-9 {flex-basis: 75%}
-.flex .box-10, .flex .box-xs-10, .flex-xs .box-10, .flex-xs .box-xs-10 {flex-basis: 83.33333333%}
-.flex .box-11, .flex .box-xs-11, .flex-xs .box-11, .flex-xs .box-xs-11 {flex-basis: 91.66666667%}
-.flex .box-12, .flex .box-xs-12, .flex-xs .box-12, .flex-xs .box-xs-12 {flex-basis: 100%}
+.flex > .box-0, .flex > .box-xs-0, .flex-xs > .box-0, .flex-xs > .box-xs-0 {flex-basis: 0%}
+.flex > .box-1, .flex > .box-xs-1, .flex-xs > .box-1, .flex-xs > .box-xs-1 {flex-basis: 8.33333333%}
+.flex > .box-2, .flex > .box-xs-2, .flex-xs > .box-2, .flex-xs > .box-xs-2 {flex-basis: 16.66666667%}
+.flex > .box-3, .flex > .box-xs-3, .flex-xs > .box-3, .flex-xs > .box-xs-3 {flex-basis: 25%}
+.flex > .box-4, .flex > .box-xs-4, .flex-xs > .box-4, .flex-xs > .box-xs-4 {flex-basis: 33.33333333%}
+.flex > .box-5, .flex > .box-xs-5, .flex-xs > .box-5, .flex-xs > .box-xs-5 {flex-basis: 41.66666667%}
+.flex > .box-6, .flex > .box-xs-6, .flex-xs > .box-6, .flex-xs > .box-xs-6 {flex-basis: 50%}
+.flex > .box-7, .flex > .box-xs-7, .flex-xs > .box-7, .flex-xs > .box-xs-7 {flex-basis: 58.33333333%}
+.flex > .box-8, .flex > .box-xs-8, .flex-xs > .box-8, .flex-xs > .box-xs-8 {flex-basis: 66.66666667%}
+.flex > .box-9, .flex > .box-xs-9, .flex-xs > .box-9, .flex-xs > .box-xs-9 {flex-basis: 75%}
+.flex > .box-10, .flex > .box-xs-10, .flex-xs > .box-10, .flex-xs > .box-xs-10 {flex-basis: 83.33333333%}
+.flex > .box-11, .flex > .box-xs-11, .flex-xs > .box-11, .flex-xs > .box-xs-11 {flex-basis: 91.66666667%}
+.flex > .box-12, .flex > .box-xs-12, .flex-xs > .box-12, .flex-xs > .box-xs-12 {flex-basis: 100%}
 
-.gutter .box,
-.gutter .box-0, .gutter .box-1, .gutter .box-2, .gutter .box-3, .gutter .box-4, .gutter .box-5, .gutter .box-6, .gutter .box-7, .gutter .box-8, .gutter .box-9, .gutter .box-10, .gutter .box-11, .gutter .box-12,.gutter .box-xs-0, .gutter .box-xs-1, .gutter .box-xs-2, .gutter .box-xs-3, .gutter .box-xs-4, .gutter .box-xs-5, .gutter .box-xs-6, .gutter .box-xs-7, .gutter .box-xs-8, .gutter .box-xs-9, .gutter .box-xs-10, .gutter .box-xs-11, .gutter .box-xs-12,.gutter .box-s-0, .gutter .box-s-1, .gutter .box-s-2, .gutter .box-s-3, .gutter .box-s-4, .gutter .box-s-5, .gutter .box-s-6, .gutter .box-s-7, .gutter .box-s-8, .gutter .box-s-9, .gutter .box-s-10, .gutter .box-s-11, .gutter .box-s-12,.gutter .box-m-0, .gutter .box-m-1, .gutter .box-m-2, .gutter .box-m-3, .gutter .box-m-4, .gutter .box-m-5, .gutter .box-m-6, .gutter .box-m-7, .gutter .box-m-8, .gutter .box-m-9, .gutter .box-m-10, .gutter .box-m-11, .gutter .box-m-12,.gutter .box-l-0, .gutter .box-l-1, .gutter .box-l-2, .gutter .box-l-3, .gutter .box-l-4, .gutter .box-l-5, .gutter .box-l-6, .gutter .box-l-7, .gutter .box-l-8, .gutter .box-l-9, .gutter .box-l-10, .gutter .box-l-11, .gutter .box-l-12,.gutter .box-xl-0, .gutter .box-xl-1, .gutter .box-xl-2, .gutter .box-xl-3, .gutter .box-xl-4, .gutter .box-xl-5, .gutter .box-xl-6, .gutter .box-xl-7, .gutter .box-xl-8, .gutter .box-xl-9, .gutter .box-xl-10, .gutter .box-xl-11, .gutter .box-xl-12 {padding-left: 1rem; padding-right: 1rem}
+.use-gutter, .gutter > .box,
+.gutter > .box-0, .gutter > .box-1, .gutter > .box-2, .gutter > .box-3, .gutter > .box-4, .gutter > .box-5, .gutter > .box-6, .gutter > .box-7, .gutter > .box-8, .gutter > .box-9, .gutter > .box-10, .gutter > .box-11, .gutter > .box-12,.gutter > .box-xs-0, .gutter > .box-xs-1, .gutter > .box-xs-2, .gutter > .box-xs-3, .gutter > .box-xs-4, .gutter > .box-xs-5, .gutter > .box-xs-6, .gutter > .box-xs-7, .gutter > .box-xs-8, .gutter > .box-xs-9, .gutter > .box-xs-10, .gutter > .box-xs-11, .gutter > .box-xs-12,.gutter > .box-s-0, .gutter > .box-s-1, .gutter > .box-s-2, .gutter > .box-s-3, .gutter > .box-s-4, .gutter > .box-s-5, .gutter > .box-s-6, .gutter > .box-s-7, .gutter > .box-s-8, .gutter > .box-s-9, .gutter > .box-s-10, .gutter > .box-s-11, .gutter > .box-s-12,.gutter > .box-m-0, .gutter > .box-m-1, .gutter > .box-m-2, .gutter > .box-m-3, .gutter > .box-m-4, .gutter > .box-m-5, .gutter > .box-m-6, .gutter > .box-m-7, .gutter > .box-m-8, .gutter > .box-m-9, .gutter > .box-m-10, .gutter > .box-m-11, .gutter > .box-m-12,.gutter > .box-l-0, .gutter > .box-l-1, .gutter > .box-l-2, .gutter > .box-l-3, .gutter > .box-l-4, .gutter > .box-l-5, .gutter > .box-l-6, .gutter > .box-l-7, .gutter > .box-l-8, .gutter > .box-l-9, .gutter > .box-l-10, .gutter > .box-l-11, .gutter > .box-l-12,.gutter > .box-xl-0, .gutter > .box-xl-1, .gutter > .box-xl-2, .gutter > .box-xl-3, .gutter > .box-xl-4, .gutter > .box-xl-5, .gutter > .box-xl-6, .gutter > .box-xl-7, .gutter > .box-xl-8, .gutter > .box-xl-9, .gutter > .box-xl-10, .gutter > .box-xl-11, .gutter > .box-xl-12 {padding-left: 1rem; padding-right: 1rem}
 
 @media (min-width: 34rem){
 	.flex-s {
@@ -58,19 +58,19 @@
 		flex-wrap: wrap;
 	}
 
-	.flex .box-s-0, .flex-xs .box-s-0, .flex-s .box-s-0 {flex-basis: 0%}
-	.flex .box-s-1, .flex-xs .box-s-1, .flex-s .box-s-1 {flex-basis: 8.33333333%}
-	.flex .box-s-2, .flex-xs .box-s-2, .flex-s .box-s-2 {flex-basis: 16.66666667%}
-	.flex .box-s-3, .flex-xs .box-s-3, .flex-s .box-s-3 {flex-basis: 25%}
-	.flex .box-s-4, .flex-xs .box-s-4, .flex-s .box-s-4 {flex-basis: 33.33333333%}
-	.flex .box-s-5, .flex-xs .box-s-5, .flex-s .box-s-5 {flex-basis: 41.66666667%}
-	.flex .box-s-6, .flex-xs .box-s-6, .flex-s .box-s-6 {flex-basis: 50%}
-	.flex .box-s-7, .flex-xs .box-s-7, .flex-s .box-s-7 {flex-basis: 58.33333333%}
-	.flex .box-s-8, .flex-xs .box-s-8, .flex-s .box-s-8 {flex-basis: 66.66666667%}
-	.flex .box-s-9, .flex-xs .box-s-9, .flex-s .box-s-9 {flex-basis: 75%}
-	.flex .box-s-10, .flex-xs .box-s-10, .flex-s .box-s-10 {flex-basis: 83.33333333%}
-	.flex .box-s-11, .flex-xs .box-s-11, .flex-s .box-s-11 {flex-basis: 91.66666667%}
-	.flex .box-s-12, .flex-xs .box-s-12, .flex-s .box-s-12 {flex-basis: 100%}
+	.flex > .box-s-0, .flex-xs > .box-s-0, .flex-s > .box-s-0 {flex-basis: 0%}
+	.flex > .box-s-1, .flex-xs > .box-s-1, .flex-s > .box-s-1 {flex-basis: 8.33333333%}
+	.flex > .box-s-2, .flex-xs > .box-s-2, .flex-s > .box-s-2 {flex-basis: 16.66666667%}
+	.flex > .box-s-3, .flex-xs > .box-s-3, .flex-s > .box-s-3 {flex-basis: 25%}
+	.flex > .box-s-4, .flex-xs > .box-s-4, .flex-s > .box-s-4 {flex-basis: 33.33333333%}
+	.flex > .box-s-5, .flex-xs > .box-s-5, .flex-s > .box-s-5 {flex-basis: 41.66666667%}
+	.flex > .box-s-6, .flex-xs > .box-s-6, .flex-s > .box-s-6 {flex-basis: 50%}
+	.flex > .box-s-7, .flex-xs > .box-s-7, .flex-s > .box-s-7 {flex-basis: 58.33333333%}
+	.flex > .box-s-8, .flex-xs > .box-s-8, .flex-s > .box-s-8 {flex-basis: 66.66666667%}
+	.flex > .box-s-9, .flex-xs > .box-s-9, .flex-s > .box-s-9 {flex-basis: 75%}
+	.flex > .box-s-10, .flex-xs > .box-s-10, .flex-s > .box-s-10 {flex-basis: 83.33333333%}
+	.flex > .box-s-11, .flex-xs > .box-s-11, .flex-s > .box-s-11 {flex-basis: 91.66666667%}
+	.flex > .box-s-12, .flex-xs > .box-s-12, .flex-s > .box-s-12 {flex-basis: 100%}
 }
 
 @media (min-width: 46rem){
@@ -80,19 +80,19 @@
 		flex-wrap: wrap;
 	}
 
-	.flex .box-m-0, .flex-xs .box-m-0, .flex-s .box-m-0, .flex-m .box-m-0 {flex-basis: 0%}
-	.flex .box-m-1, .flex-xs .box-m-1, .flex-s .box-m-1, .flex-m .box-m-1 {flex-basis: 8.33333333%}
-	.flex .box-m-2, .flex-xs .box-m-2, .flex-s .box-m-2, .flex-m .box-m-2 {flex-basis: 16.66666667%}
-	.flex .box-m-3, .flex-xs .box-m-3, .flex-s .box-m-3, .flex-m .box-m-3 {flex-basis: 25%}
-	.flex .box-m-4, .flex-xs .box-m-4, .flex-s .box-m-4, .flex-m .box-m-4 {flex-basis: 33.33333333%}
-	.flex .box-m-5, .flex-xs .box-m-5, .flex-s .box-m-5, .flex-m .box-m-5 {flex-basis: 41.66666667%}
-	.flex .box-m-6, .flex-xs .box-m-6, .flex-s .box-m-6, .flex-m .box-m-6 {flex-basis: 50%}
-	.flex .box-m-7, .flex-xs .box-m-7, .flex-s .box-m-7, .flex-m .box-m-7 {flex-basis: 58.33333333%}
-	.flex .box-m-8, .flex-xs .box-m-8, .flex-s .box-m-8, .flex-m .box-m-8 {flex-basis: 66.66666667%}
-	.flex .box-m-9, .flex-xs .box-m-9, .flex-s .box-m-9, .flex-m .box-m-9 {flex-basis: 75%}
-	.flex .box-m-10, .flex-xs .box-m-10, .flex-s .box-m-10, .flex-m .box-m-10 {flex-basis: 83.33333333%}
-	.flex .box-m-11, .flex-xs .box-m-11, .flex-s .box-m-11, .flex-m .box-m-11 {flex-basis: 91.66666667%}
-	.flex .box-m-12, .flex-xs .box-m-12, .flex-s .box-m-12, .flex-m .box-m-12 {flex-basis: 100%}
+	.flex > .box-m-0, .flex-xs > .box-m-0, .flex-s > .box-m-0, .flex-m > .box-m-0 {flex-basis: 0%}
+	.flex > .box-m-1, .flex-xs > .box-m-1, .flex-s > .box-m-1, .flex-m > .box-m-1 {flex-basis: 8.33333333%}
+	.flex > .box-m-2, .flex-xs > .box-m-2, .flex-s > .box-m-2, .flex-m > .box-m-2 {flex-basis: 16.66666667%}
+	.flex > .box-m-3, .flex-xs > .box-m-3, .flex-s > .box-m-3, .flex-m > .box-m-3 {flex-basis: 25%}
+	.flex > .box-m-4, .flex-xs > .box-m-4, .flex-s > .box-m-4, .flex-m > .box-m-4 {flex-basis: 33.33333333%}
+	.flex > .box-m-5, .flex-xs > .box-m-5, .flex-s > .box-m-5, .flex-m > .box-m-5 {flex-basis: 41.66666667%}
+	.flex > .box-m-6, .flex-xs > .box-m-6, .flex-s > .box-m-6, .flex-m > .box-m-6 {flex-basis: 50%}
+	.flex > .box-m-7, .flex-xs > .box-m-7, .flex-s > .box-m-7, .flex-m > .box-m-7 {flex-basis: 58.33333333%}
+	.flex > .box-m-8, .flex-xs > .box-m-8, .flex-s > .box-m-8, .flex-m > .box-m-8 {flex-basis: 66.66666667%}
+	.flex > .box-m-9, .flex-xs > .box-m-9, .flex-s > .box-m-9, .flex-m > .box-m-9 {flex-basis: 75%}
+	.flex > .box-m-10, .flex-xs > .box-m-10, .flex-s > .box-m-10, .flex-m > .box-m-10 {flex-basis: 83.33333333%}
+	.flex > .box-m-11, .flex-xs > .box-m-11, .flex-s > .box-m-11, .flex-m > .box-m-11 {flex-basis: 91.66666667%}
+	.flex > .box-m-12, .flex-xs > .box-m-12, .flex-s > .box-m-12, .flex-m > .box-m-12 {flex-basis: 100%}
 }
 
 @media (min-width: 60rem){
@@ -102,19 +102,19 @@
 		flex-wrap: wrap;
 	}
 
-	.flex .box-l-0, .flex-xs .box-l-0, .flex-s .box-l-0, .flex-m .box-l-0, .flex-l .box-l-0 {flex-basis: 0%}
-	.flex .box-l-1, .flex-xs .box-l-1, .flex-s .box-l-1, .flex-m .box-l-1, .flex-l .box-l-1 {flex-basis: 8.33333333%}
-	.flex .box-l-2, .flex-xs .box-l-2, .flex-s .box-l-2, .flex-m .box-l-2, .flex-l .box-l-2 {flex-basis: 16.66666667%}
-	.flex .box-l-3, .flex-xs .box-l-3, .flex-s .box-l-3, .flex-m .box-l-3, .flex-l .box-l-3 {flex-basis: 25%}
-	.flex .box-l-4, .flex-xs .box-l-4, .flex-s .box-l-4, .flex-m .box-l-4, .flex-l .box-l-4 {flex-basis: 33.33333333%}
-	.flex .box-l-5, .flex-xs .box-l-5, .flex-s .box-l-5, .flex-m .box-l-5, .flex-l .box-l-5 {flex-basis: 41.66666667%}
-	.flex .box-l-6, .flex-xs .box-l-6, .flex-s .box-l-6, .flex-m .box-l-6, .flex-l .box-l-6 {flex-basis: 50%}
-	.flex .box-l-7, .flex-xs .box-l-7, .flex-s .box-l-7, .flex-m .box-l-7, .flex-l .box-l-7 {flex-basis: 58.33333333%}
-	.flex .box-l-8, .flex-xs .box-l-8, .flex-s .box-l-8, .flex-m .box-l-8, .flex-l .box-l-8 {flex-basis: 66.66666667%}
-	.flex .box-l-9, .flex-xs .box-l-9, .flex-s .box-l-9, .flex-m .box-l-9, .flex-l .box-l-9 {flex-basis: 75%}
-	.flex .box-l-10, .flex-xs .box-l-10, .flex-s .box-l-10, .flex-m .box-l-10, .flex-l .box-l-10 {flex-basis: 83.33333333%}
-	.flex .box-l-11, .flex-xs .box-l-11, .flex-s .box-l-11, .flex-m .box-l-11, .flex-l .box-l-11 {flex-basis: 91.66666667%}
-	.flex .box-l-12, .flex-xs .box-l-12, .flex-s .box-l-12, .flex-m .box-l-12, .flex-l .box-l-12 {flex-basis: 100%}
+	.flex > .box-l-0, .flex-xs > .box-l-0, .flex-s > .box-l-0, .flex-m > .box-l-0, .flex-l > .box-l-0 {flex-basis: 0%}
+	.flex > .box-l-1, .flex-xs > .box-l-1, .flex-s > .box-l-1, .flex-m > .box-l-1, .flex-l > .box-l-1 {flex-basis: 8.33333333%}
+	.flex > .box-l-2, .flex-xs > .box-l-2, .flex-s > .box-l-2, .flex-m > .box-l-2, .flex-l > .box-l-2 {flex-basis: 16.66666667%}
+	.flex > .box-l-3, .flex-xs > .box-l-3, .flex-s > .box-l-3, .flex-m > .box-l-3, .flex-l > .box-l-3 {flex-basis: 25%}
+	.flex > .box-l-4, .flex-xs > .box-l-4, .flex-s > .box-l-4, .flex-m > .box-l-4, .flex-l > .box-l-4 {flex-basis: 33.33333333%}
+	.flex > .box-l-5, .flex-xs > .box-l-5, .flex-s > .box-l-5, .flex-m > .box-l-5, .flex-l > .box-l-5 {flex-basis: 41.66666667%}
+	.flex > .box-l-6, .flex-xs > .box-l-6, .flex-s > .box-l-6, .flex-m > .box-l-6, .flex-l > .box-l-6 {flex-basis: 50%}
+	.flex > .box-l-7, .flex-xs > .box-l-7, .flex-s > .box-l-7, .flex-m > .box-l-7, .flex-l > .box-l-7 {flex-basis: 58.33333333%}
+	.flex > .box-l-8, .flex-xs > .box-l-8, .flex-s > .box-l-8, .flex-m > .box-l-8, .flex-l > .box-l-8 {flex-basis: 66.66666667%}
+	.flex > .box-l-9, .flex-xs > .box-l-9, .flex-s > .box-l-9, .flex-m > .box-l-9, .flex-l > .box-l-9 {flex-basis: 75%}
+	.flex > .box-l-10, .flex-xs > .box-l-10, .flex-s > .box-l-10, .flex-m > .box-l-10, .flex-l > .box-l-10 {flex-basis: 83.33333333%}
+	.flex > .box-l-11, .flex-xs > .box-l-11, .flex-s > .box-l-11, .flex-m > .box-l-11, .flex-l > .box-l-11 {flex-basis: 91.66666667%}
+	.flex > .box-l-12, .flex-xs > .box-l-12, .flex-s > .box-l-12, .flex-m > .box-l-12, .flex-l > .box-l-12 {flex-basis: 100%}
 }
 
 @media (min-width: 90rem){
@@ -124,17 +124,17 @@
 		flex-wrap: wrap;
 	}
 
-	.flex .box-xl-0, .flex-xs .box-xl-0, .flex-s .box-xl-0, .flex-m .box-xl-0, .flex-l .box-xl-0, .flex-xl .box-xl-0 {flex-basis: 0%}
-	.flex .box-xl-1, .flex-xs .box-xl-1, .flex-s .box-xl-1, .flex-m .box-xl-1, .flex-l .box-xl-1, .flex-xl .box-xl-1 {flex-basis: 8.33333333%}
-	.flex .box-xl-2, .flex-xs .box-xl-2, .flex-s .box-xl-2, .flex-m .box-xl-2, .flex-l .box-xl-2, .flex-xl .box-xl-2 {flex-basis: 16.66666667%}
-	.flex .box-xl-3, .flex-xs .box-xl-3, .flex-s .box-xl-3, .flex-m .box-xl-3, .flex-l .box-xl-3, .flex-xl .box-xl-3 {flex-basis: 25%}
-	.flex .box-xl-4, .flex-xs .box-xl-4, .flex-s .box-xl-4, .flex-m .box-xl-4, .flex-l .box-xl-4, .flex-xl .box-xl-4 {flex-basis: 33.33333333%}
-	.flex .box-xl-5, .flex-xs .box-xl-5, .flex-s .box-xl-5, .flex-m .box-xl-5, .flex-l .box-xl-5, .flex-xl .box-xl-5 {flex-basis: 41.66666667%}
-	.flex .box-xl-6, .flex-xs .box-xl-6, .flex-s .box-xl-6, .flex-m .box-xl-6, .flex-l .box-xl-6, .flex-xl .box-xl-6 {flex-basis: 50%}
-	.flex .box-xl-7, .flex-xs .box-xl-7, .flex-s .box-xl-7, .flex-m .box-xl-7, .flex-l .box-xl-7, .flex-xl .box-xl-7 {flex-basis: 58.33333333%}
-	.flex .box-xl-8, .flex-xs .box-xl-8, .flex-s .box-xl-8, .flex-m .box-xl-8, .flex-l .box-xl-8, .flex-xl .box-xl-8 {flex-basis: 66.66666667%}
-	.flex .box-xl-9, .flex-xs .box-xl-9, .flex-s .box-xl-9, .flex-m .box-xl-9, .flex-l .box-xl-9, .flex-xl .box-xl-9 {flex-basis: 75%}
-	.flex .box-xl-10, .flex-xs .box-xl-10, .flex-s .box-xl-10, .flex-m .box-xl-10, .flex-l .box-xl-10, .flex-xl .box-xl-10 {flex-basis: 83.33333333%}
-	.flex .box-xl-11, .flex-xs .box-xl-11, .flex-s .box-xl-11, .flex-m .box-xl-11, .flex-l .box-xl-11, .flex-xl .box-xl-11 {flex-basis: 91.66666667%}
-	.flex .box-xl-12, .flex-xs .box-xl-12, .flex-s .box-xl-12, .flex-m .box-xl-12, .flex-l .box-xl-12, .flex-xl .box-xl-12 {flex-basis: 100%}
+	.flex > .box-xl-0, .flex-xs > .box-xl-0, .flex-s > .box-xl-0, .flex-m > .box-xl-0, .flex-l > .box-xl-0, .flex-xl > .box-xl-0 {flex-basis: 0%}
+	.flex > .box-xl-1, .flex-xs > .box-xl-1, .flex-s > .box-xl-1, .flex-m > .box-xl-1, .flex-l > .box-xl-1, .flex-xl > .box-xl-1 {flex-basis: 8.33333333%}
+	.flex > .box-xl-2, .flex-xs > .box-xl-2, .flex-s > .box-xl-2, .flex-m > .box-xl-2, .flex-l > .box-xl-2, .flex-xl > .box-xl-2 {flex-basis: 16.66666667%}
+	.flex > .box-xl-3, .flex-xs > .box-xl-3, .flex-s > .box-xl-3, .flex-m > .box-xl-3, .flex-l > .box-xl-3, .flex-xl > .box-xl-3 {flex-basis: 25%}
+	.flex > .box-xl-4, .flex-xs > .box-xl-4, .flex-s > .box-xl-4, .flex-m > .box-xl-4, .flex-l > .box-xl-4, .flex-xl > .box-xl-4 {flex-basis: 33.33333333%}
+	.flex > .box-xl-5, .flex-xs > .box-xl-5, .flex-s > .box-xl-5, .flex-m > .box-xl-5, .flex-l > .box-xl-5, .flex-xl > .box-xl-5 {flex-basis: 41.66666667%}
+	.flex > .box-xl-6, .flex-xs > .box-xl-6, .flex-s > .box-xl-6, .flex-m > .box-xl-6, .flex-l > .box-xl-6, .flex-xl > .box-xl-6 {flex-basis: 50%}
+	.flex > .box-xl-7, .flex-xs > .box-xl-7, .flex-s > .box-xl-7, .flex-m > .box-xl-7, .flex-l > .box-xl-7, .flex-xl > .box-xl-7 {flex-basis: 58.33333333%}
+	.flex > .box-xl-8, .flex-xs > .box-xl-8, .flex-s > .box-xl-8, .flex-m > .box-xl-8, .flex-l > .box-xl-8, .flex-xl > .box-xl-8 {flex-basis: 66.66666667%}
+	.flex > .box-xl-9, .flex-xs > .box-xl-9, .flex-s > .box-xl-9, .flex-m > .box-xl-9, .flex-l > .box-xl-9, .flex-xl > .box-xl-9 {flex-basis: 75%}
+	.flex > .box-xl-10, .flex-xs > .box-xl-10, .flex-s > .box-xl-10, .flex-m > .box-xl-10, .flex-l > .box-xl-10, .flex-xl > .box-xl-10 {flex-basis: 83.33333333%}
+	.flex > .box-xl-11, .flex-xs > .box-xl-11, .flex-s > .box-xl-11, .flex-m > .box-xl-11, .flex-l > .box-xl-11, .flex-xl > .box-xl-11 {flex-basis: 91.66666667%}
+	.flex > .box-xl-12, .flex-xs > .box-xl-12, .flex-s > .box-xl-12, .flex-m > .box-xl-12, .flex-l > .box-xl-12, .flex-xl > .box-xl-12 {flex-basis: 100%}
 }
