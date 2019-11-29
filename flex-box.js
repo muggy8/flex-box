@@ -112,8 +112,6 @@ ${sizes.map(size=>{
 }
 `
 
-console.log(css)
-
 function round(n, digits = 8){
 	let exp = Math.pow(10, digits)
 	return Math.round(n * exp) / exp
@@ -122,4 +120,8 @@ function round(n, digits = 8){
 if (typeof require !== "undefined"){
 	let fs = require("fs")
 	fs.writeFileSync("./flex-box.css", css)
+}
+
+if (typeof module !== "undefined"){
+	module.exports = css
 }
