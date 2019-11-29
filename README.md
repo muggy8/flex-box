@@ -30,4 +30,4 @@ the `box` class is one item within a row. you can modify this class by adding a 
 If the gutter class isn't effective enough, you can use this class to add to manually add gutters to any element.
 
 ## Importing
-You can import the built CSS via your CDN of choice. If you would like to, you can install it from NPM where the CSS in it's raw state lives as a JS file that you can adjust to your heart's content.
+You can import the built CSS via your CDN of choice. If you like, you can install this git repo it from using NPM. The CSS of this project it's raw state exists as a JS file. feel free to adjust it to your heart's content.
