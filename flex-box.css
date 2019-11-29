@@ -31,7 +31,7 @@
 
 .flex > .box, .flex-xs > .box, .flex-s > .box, .flex-m > .box, .flex-l > .box, .flex-xl > .box {
 	flex-grow: 1;
-	flex-basis: 1;
+	flex-basis: auto;
 	flex-shrink: 1;
 }
 

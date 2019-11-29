@@ -34,7 +34,7 @@ ${flexClasses.map(c=>c + ".no-wrap").join(", ")} {flex-wrap: no-wrap}
 
 ${flexClasses.map(c=>c + " > .box").join(", ")} {
 	flex-grow: 1;
-	flex-basis: 1;
+	flex-basis: auto;
 	flex-shrink: 1;
 }
 
