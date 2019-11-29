@@ -1,0 +1,25 @@
+{
+  "name": "flex-box",
+  "version": "0.0.1",
+  "description": "A small fun CSS library to do grids with using flex-box",
+  "main": "flex-box.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muggy8/flex-box.git"
+  },
+  "keywords": [
+    "CSS"
+  ],
+  "author": "Muggy Ate",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/muggy8/flex-box/issues"
+  },
+  "homepage": "https://github.com/muggy8/flex-box#readme",
+  "devDependencies": {
+    "clean-css": "^4.2.1"
+  }
+}
