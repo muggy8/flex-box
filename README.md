@@ -26,6 +26,8 @@ There are functionalities that you can use to augment the base behavior of the f
 #### Classes: box[-size-gridWidth]
 the `box` class is one item within a row. you can modify this class by adding a size to the box such as `-l-4` or `-m-12` resulting in classes such as `box-l-4` and `box-m-12`. This will allow you to flex your layout using boxes or switch between block and flex. you can choose if you want to use the application of lex or the application of the box size to adjust the design but mixing both is supported but isn't conceptually as straitforward.
 
+IF you do not add any modifiers to the `box` class, the default behavior is to take up as much space as allowed to.
+
 #### Class: use-gutter
 If the gutter class isn't effective enough, you can use this class to add to manually add gutters to any element.
 
