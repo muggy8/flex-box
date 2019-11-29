@@ -61,7 +61,9 @@ ${sizes.map(size=>{
 	${gridList.map(size=>{
 		let width = round(size / (gridList.length - 1) * 100) + "%"
 		let flexClasses = [".flex", ".flex-xs", ".flex-s"]
-		let classes = flexClasses.map(c=>c + " > .box-s-" + size).join(", ")
+		let classes = flexClasses.map(c=>c + " > .box-s-" + size)
+			.concat([`.flex-s > .box-${size}`])
+			.join(", ")
 		return classes + ` {flex-basis: ${width}}`
 	}).join("\n\t")}
 }
@@ -76,7 +78,9 @@ ${sizes.map(size=>{
 	${gridList.map(size=>{
 		let width = round(size / (gridList.length - 1) * 100) + "%"
 		let flexClasses = [".flex", ".flex-xs", ".flex-s", ".flex-m"]
-		let classes = flexClasses.map(c=>c + " > .box-m-" + size).join(", ")
+		let classes = flexClasses.map(c=>c + " > .box-m-" + size)
+			.concat([`.flex-m > .box-${size}`])
+			.join(", ")
 		return classes + ` {flex-basis: ${width}}`
 	}).join("\n\t")}
 }
@@ -91,7 +95,9 @@ ${sizes.map(size=>{
 	${gridList.map(size=>{
 		let width = round(size / (gridList.length - 1) * 100) + "%"
 		let flexClasses = [".flex", ".flex-xs", ".flex-s", ".flex-m", ".flex-l"]
-		let classes = flexClasses.map(c=>c + " > .box-l-" + size).join(", ")
+		let classes = flexClasses.map(c=>c + " > .box-l-" + size)
+			.concat([`.flex-l > .box-${size}`])
+			.join(", ")
 		return classes + ` {flex-basis: ${width}}`
 	}).join("\n\t")}
 }
@@ -106,7 +112,9 @@ ${sizes.map(size=>{
 	${gridList.map(size=>{
 		let width = round(size / (gridList.length - 1) * 100) + "%"
 		let flexClasses = [".flex", ".flex-xs", ".flex-s", ".flex-m", ".flex-l", ".flex-xl"]
-		let classes = flexClasses.map(c=>c + " > .box-xl-" + size).join(", ")
+		let classes = flexClasses.map(c=>c + " > .box-xl-" + size)
+			.concat([`.flex-xl > .box-${size}`])
+			.join(", ")
 		return classes + ` {flex-basis: ${width}}`
 	}).join("\n\t")}
 }
