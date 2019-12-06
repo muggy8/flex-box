@@ -151,7 +151,7 @@ ${gutterMutipliers.map(multiplier=>{
 				return rule
 			})
 			.join(",\n")
-			+ multiplier === 1 ? "{padding-top: var(--flex-box-gutter);}" : `{padding-top: calc(var(--flex-box-gutter) * ${multiplier});}`
+			+ (multiplier === 1 ? "{padding-top: var(--flex-box-gutter);}" : `{padding-top: calc(var(--flex-box-gutter) * ${multiplier});}`)
 		,
 		directions
 			.filter(combo=>combo.some(direction=>direction === "r"))
@@ -165,7 +165,7 @@ ${gutterMutipliers.map(multiplier=>{
 				return rule
 			})
 			.join(",\n")
-			+ multiplier === 1 ? "{padding-right: var(--flex-box-gutter);}" : `{padding-right: calc(var(--flex-box-gutter) * ${multiplier});}`
+			+ (multiplier === 1 ? "{padding-right: var(--flex-box-gutter);}" : `{padding-right: calc(var(--flex-box-gutter) * ${multiplier});}`)
 		,
 		directions
 			.filter(combo=>combo.some(direction=>direction === "b"))
@@ -179,7 +179,7 @@ ${gutterMutipliers.map(multiplier=>{
 				return rule
 			})
 			.join(",\n")
-			+ multiplier === 1 ? "{padding-bottom: var(--flex-box-gutter);}" : `{padding-bottom: calc(var(--flex-box-gutter) * ${multiplier});}`
+			+ (multiplier === 1 ? "{padding-bottom: var(--flex-box-gutter);}" : `{padding-bottom: calc(var(--flex-box-gutter) * ${multiplier});}`)
 		,
 		directions
 			.filter(combo=>combo.some(direction=>direction === "l"))
@@ -193,7 +193,7 @@ ${gutterMutipliers.map(multiplier=>{
 				return rule
 			})
 			.join(",\n")
-			+ multiplier === 1 ? "{padding-left: var(--flex-box-gutter);}" : `{padding-left: calc(var(--flex-box-gutter) * ${multiplier});}`
+			+ (multiplier === 1 ? "{padding-left: var(--flex-box-gutter);}" : `{padding-left: calc(var(--flex-box-gutter) * ${multiplier});}`)
 	]
 
 	return rules.join("\n")
