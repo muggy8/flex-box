@@ -142,24 +142,56 @@ ${gutterMutipliers.map(multiplier=>{
 		directions
 			.filter(combo=>combo.some(direction=>direction === "t"))
 			.map(combo=>`.gutter-${combo.join("")}${suffix}`)
+			.map(rule=>{
+				if (multiplier === 1){
+					rule = [rule, rule]
+					rule[0].replace(suffix, "")
+					rule = rule.join(",\n")
+				}
+				return rule
+			})
 			.join(",\n")
 			+ `{padding-top: calc(var(--flex-box-gutter) * ${multiplier});}`
 		,
 		directions
 			.filter(combo=>combo.some(direction=>direction === "r"))
 			.map(combo=>`.gutter-${combo.join("")}${suffix}`)
+			.map(rule=>{
+				if (multiplier === 1){
+					rule = [rule, rule]
+					rule[0].replace(suffix, "")
+					rule = rule.join(",\n")
+				}
+				return rule
+			})
 			.join(",\n")
 			+ `{padding-right: calc(var(--flex-box-gutter) * ${multiplier});}`
 		,
 		directions
 			.filter(combo=>combo.some(direction=>direction === "b"))
 			.map(combo=>`.gutter-${combo.join("")}${suffix}`)
+			.map(rule=>{
+				if (multiplier === 1){
+					rule = [rule, rule]
+					rule[0].replace(suffix, "")
+					rule = rule.join(",\n")
+				}
+				return rule
+			})
 			.join(",\n")
 			+ `{padding-bottom: calc(var(--flex-box-gutter) * ${multiplier});}`
 		,
 		directions
 			.filter(combo=>combo.some(direction=>direction === "l"))
 			.map(combo=>`.gutter-${combo.join("")}${suffix}`)
+			.map(rule=>{
+				if (multiplier === 1){
+					rule = [rule, rule]
+					rule[0].replace(suffix, "")
+					rule = rule.join(",\n")
+				}
+				return rule
+			})
 			.join(",\n")
 			+ `{padding-left: calc(var(--flex-box-gutter) * ${multiplier});}`
 	]
