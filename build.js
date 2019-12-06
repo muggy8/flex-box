@@ -1,6 +1,15 @@
 const CleanCSS = require("clean-css")
-const css = require("./flex-box.js")
+require("./flex-box.js")
 const options = {}
-const minCss = new CleanCSS(options).minify(css)
+const minify = new CleanCSS(options).minify
 const fs = require("fs")
-fs.writeFileSync("flex-box.min.css", minCss.styles)
+
+const rawCssPaths = []
+fs.readdirSync(".").filter(path=>{
+	if (!/\.css$/i.test(path) || /\.min\.css$/.test(path)){
+		return
+	}
+	let contents = fs.readFileSync(path, "utf-8")
+	let minCss = minify(contents)
+	fs.writeFileSync(path.replace(".css", ".min.css"), minCss.styles)
+})
