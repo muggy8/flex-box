@@ -1,7 +1,12 @@
 let flexClasses = [".flex", ".flex-xs", ".flex-s", ".flex-m", ".flex-l", ".flex-xl"]
 let sizes = ["", "-xs", "-s", "-m", "-l", "-xl"]
 let gridList = [0,1,2,3,4,5,6,7,8,9,10,11,12]
-let css = `* {box-sizing: border-box}
+let css = `html {
+	/*Set variables*/
+	--flex-box-gutter: 1rem;
+}
+
+* {box-sizing: border-box}
 
 .flex,
 .flex-xs {
@@ -49,7 +54,12 @@ ${gridList.map(size=>{
 ${sizes.map(size=>{
 	let gutterClasses = gridList.map(col=>`.gutter > .box${size}-${col}`).join(", ")
 	return gutterClasses
-})} {padding-left: 1rem; padding-right: 1rem;}
+})} {
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-left: var(--flex-box-gutter);
+	padding-right: var(--flex-box-gutter);
+}
 
 @media (min-width: 34rem){
 	.flex-s {
