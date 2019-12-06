@@ -31,7 +31,7 @@ ${flexClasses.map(c=>c + ".vhend").join(", ")} {justify-content: end}
 
 ${flexClasses.map(c=>c + ".column").join(", ")} {flex-direction: column}
 
-${flexClasses.map(c=>c + ".no-wrap").join(", ")} {flex-wrap: no-wrap}
+${flexClasses.map(c=>c + ".no-wrap").join(", ")} {flex-wrap: nowrap}
 
 ${flexClasses.map(c=>c + " > .box").join(", ")} {
 	flex-grow: 1;

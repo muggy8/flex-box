@@ -27,7 +27,7 @@
 
 .flex.column, .flex-xs.column, .flex-s.column, .flex-m.column, .flex-l.column, .flex-xl.column {flex-direction: column}
 
-.flex.no-wrap, .flex-xs.no-wrap, .flex-s.no-wrap, .flex-m.no-wrap, .flex-l.no-wrap, .flex-xl.no-wrap {flex-wrap: no-wrap}
+.flex.no-wrap, .flex-xs.no-wrap, .flex-s.no-wrap, .flex-m.no-wrap, .flex-l.no-wrap, .flex-xl.no-wrap {flex-wrap: nowrap}
 
 .flex > .box, .flex-xs > .box, .flex-s > .box, .flex-m > .box, .flex-l > .box, .flex-xl > .box {
 	flex-grow: 1;
