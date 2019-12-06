@@ -115,7 +115,7 @@ ${gridList.map(size=>{
 }
 `
 
-let gutterMutipliers = [0.25, 0.5, 0.75, 1, 1.5, 2, 3]
+let gutterMutipliers = [0.25, 0.5, 0.75, 1, 1.5, 2, 3, 4]
 let directions = combinations(["t", "r", "b", "l"])
 
 let gutters = `html {

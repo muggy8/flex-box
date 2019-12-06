@@ -1,6 +1,6 @@
 {
   "name": "flex-box",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A small fun CSS library to do grids with using flex-box",
   "main": "flex-box.css",
   "scripts": {

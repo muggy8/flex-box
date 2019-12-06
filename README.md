@@ -41,7 +41,7 @@ sometimes, you want to apply the gutters of a `box` to something that isn't a `b
 #### Class: gutter[-direction][-modifier]
 If you want to manually control your gutters, this is the class for you. the directions is for which direction the modifier you want to apply for example, `gutter-tbl` will add 1 base gutter's worth of padding to top, bottom and left. the order of the directions always goes from top -> right -> bottom -> left. this is consistent with using the `padding: <top> <right> <bottom> <left>` css shortcut. the directions you can use are t, r, b, l short for top, right, bottom left.
 
-the modifiers would be added by adding `-[0.25, 0.5, 0.75, 1, 1.5, 2, 3]` and will multiply the gutter's size by that multiplier. for example: `gutter-rl-0.25` will add 0.25 base gutters to the right and left of the element.
+the modifiers would be added by adding `-[0.25, 0.5, 0.75, 1, 1.5, 2, 3, 4]` and will multiply the gutter's size by that multiplier. for example: `gutter-rl-0.25` will add 0.25 base gutters to the right and left of the element.
 
 
 ## Importing
