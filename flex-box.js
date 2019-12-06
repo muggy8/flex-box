@@ -145,7 +145,7 @@ ${gutterMutipliers.map(multiplier=>{
 			.map(rule=>{
 				if (multiplier === 1){
 					rule = [rule, rule]
-					rule[0].replace(suffix, "")
+					rule[0] = rule[0].replace(suffix, "")
 					rule = rule.join(",\n")
 				}
 				return rule
@@ -159,7 +159,7 @@ ${gutterMutipliers.map(multiplier=>{
 			.map(rule=>{
 				if (multiplier === 1){
 					rule = [rule, rule]
-					rule[0].replace(suffix, "")
+					rule[0] = rule[0].replace(suffix, "")
 					rule = rule.join(",\n")
 				}
 				return rule
@@ -173,7 +173,7 @@ ${gutterMutipliers.map(multiplier=>{
 			.map(rule=>{
 				if (multiplier === 1){
 					rule = [rule, rule]
-					rule[0].replace(suffix, "")
+					rule[0] = rule[0].replace(suffix, "")
 					rule = rule.join(",\n")
 				}
 				return rule
@@ -187,7 +187,7 @@ ${gutterMutipliers.map(multiplier=>{
 			.map(rule=>{
 				if (multiplier === 1){
 					rule = [rule, rule]
-					rule[0].replace(suffix, "")
+					rule[0] = rule[0].replace(suffix, "")
 					rule = rule.join(",\n")
 				}
 				return rule
