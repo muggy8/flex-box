@@ -43,7 +43,7 @@ ${gridList.map(size=>{
 	let width = round(size / (gridList.length - 1) * 100) + "%"
 	let flexClasses = [".flex", ".flex-xs"]
 	let classes = flexClasses.map(c=>c + " > .box-" + size + ", " + c + " > .box-xs-" + size).join(", ")
-	return classes + ` {flex-basis: ${width}}`
+	return classes + ` {flex-basis: ${width}; width: ${width}}`
 }).join("\n")}
 
 @media (min-width: 34rem){
@@ -59,7 +59,7 @@ ${gridList.map(size=>{
 		let classes = flexClasses.map(c=>c + " > .box-s-" + size)
 			.concat([`.flex-s > .box-${size}`])
 			.join(", ")
-		return classes + ` {flex-basis: ${width}}`
+		return classes + ` {flex-basis: ${width}; width: ${width}}`
 	}).join("\n\t")}
 }
 
@@ -76,7 +76,7 @@ ${gridList.map(size=>{
 		let classes = flexClasses.map(c=>c + " > .box-m-" + size)
 			.concat([`.flex-m > .box-${size}`])
 			.join(", ")
-		return classes + ` {flex-basis: ${width}}`
+		return classes + ` {flex-basis: ${width}; width: ${width}}`
 	}).join("\n\t")}
 }
 
@@ -93,7 +93,7 @@ ${gridList.map(size=>{
 		let classes = flexClasses.map(c=>c + " > .box-l-" + size)
 			.concat([`.flex-l > .box-${size}`])
 			.join(", ")
-		return classes + ` {flex-basis: ${width}}`
+		return classes + ` {flex-basis: ${width}; width: ${width}}`
 	}).join("\n\t")}
 }
 
@@ -110,7 +110,7 @@ ${gridList.map(size=>{
 		let classes = flexClasses.map(c=>c + " > .box-xl-" + size)
 			.concat([`.flex-xl > .box-${size}`])
 			.join(", ")
-		return classes + ` {flex-basis: ${width}}`
+		return classes + ` {flex-basis: ${width}; width: ${width}}`
 	}).join("\n\t")}
 }
 `
